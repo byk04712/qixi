@@ -41,7 +41,7 @@ function BoyWalk() {
 	
 	// css3的动作变化
 	function startRun(options, runTime) {
-		var dfdPlay = $,Deferred();
+		var dfdPlay = $.Deferred();
 		//恢复走路
 		restoreWalk();
 		//运动的属性
